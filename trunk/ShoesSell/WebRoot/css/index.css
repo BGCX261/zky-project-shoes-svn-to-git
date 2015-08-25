@@ -1,0 +1,67 @@
+
+/*左侧样式*/
+.content_left{
+	background:#eee;
+	border: 1px solid #DECEA5;
+	width:191px;
+	
+	margin-right:10px;
+} 
+.global_module { 
+	
+	background:#EEEEEE;
+	padding-bottom:8px;
+}
+.module_up_down{
+	position:absolute;
+	top:29px;
+	right:807px;
+	cursor:pointer;
+}
+.global_module h3 { 
+	height:26px; 
+	background:#3B5998;
+	color:#FFF; 
+	line-height:26px; 
+	text-indent:6px;
+}
+.content_left .news ul { 
+	padding:5px 0 5px 15px; 
+}
+.content_left .procatalog ul { 
+	padding:5px 0 5px 15px; 
+}
+/**最新动态 样式*/
+.content_left .scrollNews{
+
+    font:12px/1.6em Helvetica, Arial, sans-serif;
+	width:190px;
+	height:85px;
+	line-height:20px;
+	overflow:hidden;
+	background:#FFFFFF;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+.content_left .scrollNews li{
+	height:20px;
+}
+.scrollNews a{ color:#666666; text-decoration:none; }
+.scrollNews a:hover { text-decoration:underline; }
+.scrollNews ul, li { list-style:none; }
+img { border:none; }
+h3 { font-size:1em; }
+
+html { overflow:-moz-scrollbars-vertical; } /* 在Firefox下始终显示滚动条*/
+* { margin:0; padding:0;}
+ /**产品分类样式**/
+
+/*右侧样式*/
+
+/* imgHover */

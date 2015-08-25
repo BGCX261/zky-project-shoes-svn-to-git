@@ -1,0 +1,13 @@
+#s1{ width:1000px; margin:auto; border:1px solid #CCCCCC; height:141px}
+#s1 ul{margin-top:0px; height:40px ; margin-left:0px}
+#s1 ul li { list-style:none; line-height:40px; margin-left:35px
+}
+#s2{ width:400px;  height:200px; margin-top:opx; margin:auto}
+#s2 ul{ margin:70px; list-style:outside;}
+.newfont03 tr td{font-size:12px}
+#a1 a{color:#6795B4;text-decoration:none}
+#a1 a:link{color:#6795B4;text-decoration:none}
+#a1 a:hover{color:#FF6633; text-decoration:none}
+#a1 a:visted{color:#6795B4£»text-decoration:none}
+#a1 a:active{color:#6795B4;text-decoration:none}
+#a2{color:#6795B4}

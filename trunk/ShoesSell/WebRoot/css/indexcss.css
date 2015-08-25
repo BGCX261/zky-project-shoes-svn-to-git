@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{width:950px; margin:auto ;}
+#ss{ font:"宋体"; font-size:13px; width:951px;height:135px ; border-top:solid #DECEA5 1px; margin-top:8px }
+#ss ul{ margin-left:0px; padding-left:0px ; margin-top:0px;  height:38px; background-image:url(img/title.jpg);background-repeat:no-repeat;border: 1px #DECEA5  solid ; padding-bottom:0px; margin-bottom:0px  }
+#ss ul li{  float:left; width:100px; list-style:none ; line-height:38px ; font-size:18px; padding-left:50px ;}
+#ss ul li a:linked{ color:#666666; text-decoration:none}
+#ss ul li a:visited{ color:#666666; text-decoration:none}
+#ss ul li a:hover{ color:#FF0000;text-decoration:none }
+
+#contend1{ clear:both;width:950px; height:500px; background-color:#009999; margin-top:0px; padding-top:0px }
+
+#pl{  height:505px; clear:both;}
+#pp1{ background-color:#FFFFFF; height:503px; width:200px; float:left;border: 1px #DECEA5  solid ; }
+#pp1 li{ list-style:none; line-height:25px }
+#pp2{ height:504px; width:746px; float:left;}
+#ppp1{width:748px;height:270px;margin-top:1px; padding-top:0px ;}
+#ppp2{width:746px;height:229px;clear:both; border:solid #DECEA5 1px;}
+
+
+.pk ul{ list-style:none; }
+.pk { width:744px; height:229px}
+.ps { margin-left:0px;margin:0px; padding:0px }
+.ps li{float:left; width:186px;  background-color:#999999; text-align:center;cursor:pointer;color:#333333; font-size:15px; font-weight:bold;
+}
+#pd{ width:744px; height:210px; clear:both;}
+#pd ul{display:none;margin:0px; padding:0px}
+#pd li{float:left; margin-left:38px;margin-top:25px}
+#ps .hover{ background-color:#99FF33;}
+#pd .ph  { display:block;}
+#pd ul li{ }
+
+
+#ppp3{width:550px;height:270px;float:left;margin-top:0px;padding-top:0px ;border:solid #DECEA5 1px; }
+/*右侧样式*/
+.content_right{
+	background:#eee;
+	border : 1px solid #AAAAAA;
+	width: 548px;
+	float:left;
+}
+/*滚动广告样式*/
+.content_right .ad { 
+	
+	margin-bottom:10px;
+	width:548px; 
+	height:268px; 
+	overflow:hidden;
+	position:absolute;
+}
+.content_right .slider,.content_right .num{
+	position:absolute;
+}
+.content_right .slider li{ 
+	list-style:none;
+	display:inline;
+}
+.content_right .slider img{ 
+	width:548px; 
+	height:268px;
+	display:block;
+}
+.content_right .num{ 
+	right:5px; 
+	bottom:5px;
+}
+.content_right .num li{
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #fff;
+}
+.content_right .num li.on{
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+* { margin:0; padding:0; word-wrap:break-word; word-break:break-all; }
+#ppp4{width:193px;height:270px;float:left;border:solid #DECEA5 1px; }
+#pppp{border-right:solid #DECEA5 1px; }
+
+.STYLE1 {font-size: 14px;color:#666666 }
+.STYLE2{font-size: 12px;color:#666666 }
+#pp3{clear:both;width:950px;}
+#pp4{margin:5px; padding-left:10px;float:left;width:168px ;}
+#pp4 a {width:160px ;height:107px;border:1px #FFFFFF solid;  }
+#pp4 p {text-align:center;color:#000000;margin-top:0px; padding-top:0px ;}
+#pp4 p a:link{color:#666666; text-decoration:none;font-size:12px;}
+#pp4 p a:visited{color:#666666; text-decoration:none;font-size:12px;}
+#pp4 p a:hover{color:#FF0000;  text-decoration:none;font-size:12px;}
+#pp4 a img {padding-bottom:0px;margin-bottom:0px;
+ border:0px #FFFFFF solid;
+}
+#pp5{padding-top:5px;float:left }
+#contentCenter1-1 {
+	width: 548px;
+	height: 269px;
+	float: left;
+	position: relative;
+}
+
+.changeNum {
+	position: absolute;
+	top: 378px;
+	left: 60%;
+	width: 100px;
+	height: 20px;
+	margin-left:0px
+	
+}
+.changeNum span {
+	color: #FFF;
+	font-size: 10px;
+	font-weight: 700;
+	padding: 2px 0 0 0;
+	display: block;
+	height: 18px !important; /*火狐优先*/
+	line-height:15px;
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-image:url(images/channelAdvButton02.png);
+}
+
+.changeNum  a {
+	text-decoration: none;
+}
+
+

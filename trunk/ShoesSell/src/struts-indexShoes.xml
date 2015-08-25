@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<package name="indexShoess" extends="struts-default">
+		<action name="indexshoes" class="shoesAction" method="findtypeshoes">
+			<result name="success">/onstage/index.jsp</result>
+		</action>
+		
+		<action name="indexHref" class="shoesAction" method="findshoes">
+			<result name="success">/onstage/indexHref.jsp</result>
+		</action>
+		<action name="search" class="shoesAction" method="search">
+			<result name="success">/onstage/search.jsp</result>
+			<result name="false">/onstage/index.jsp</result>
+		</action>
+		<action name="searchCar" class="butCartAction" method="orderTable">
+			<result name="success" >/onstage/shoppingCart.jsp</result>			
+		</action>
+	</package>
+
+</struts>

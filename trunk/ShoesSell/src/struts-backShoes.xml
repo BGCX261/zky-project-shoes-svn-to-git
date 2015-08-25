@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<constant name="struts.multipart.saveDir" value="/tmp" />
+<constant name="struts.multipart.maxSize" value="10701096"/>
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<package name="shoesAction" extends="struts-default">
+		<interceptors>
+			<interceptor name="logininterceptor" class="com.common.BLoginTntercept"></interceptor>
+			<interceptor-stack name="allterceptor">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="logininterceptor"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="allterceptor"></default-interceptor-ref>
+		<global-results >
+		<result name="false">/backstage/loginIntercept.jsp</result>
+		</global-results>
+		<action name="add" class="shoesAction" method="upload">
+			<result name="success" type="redirect">/find.action</result>
+		</action>
+		<action name="find" class="findAllShoesAction" method="findshoes">
+			<result name="success">/backstage/findAllProducts.jsp</result>
+		</action>
+		<action name="edit" class="shoesAction" method="editshoes">
+			<result name="success">/backstage/editproduct.jsp</result>
+		</action>
+		<action name="update" class="shoesAction" method="updateshoes">
+			<result name="success" type="redirect">/find.action</result>
+		</action>
+		<action name="delete" class="shoesAction" method="deleteshoes">
+			<result name="success" type="redirect">/find.action</result>
+		</action>
+
+	</package>
+</struts>

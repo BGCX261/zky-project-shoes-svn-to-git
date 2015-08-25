@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <webResource name="success.jsp" path="/success.jsp" location="98,205" size="150,55" />
+  <webResource name="index.jsp" path="/index.jsp" location="345,30" size="150,55" />
+  <webResource name="findAllProducts.jsp" path="/backstage/findAllProducts.jsp" location="0,0" size="0,0" />
+  <include file="struts-register.xml" location="0,0" size="0,0" />
+  <include file="struts-backShoes.xml" location="0,0" size="0,0" />
+  <include file="struts-users.xml" location="0,0" size="0,0" />
+  <include file="struts-manager.xml" location="0,0" size="0,0" />
+  <include file="struts-indexShoes.xml" location="0,0" size="0,0" />
+  <include file="struts-buyCart.xml" location="0,0" size="0,0" />
+</Struts2Diagram>
+

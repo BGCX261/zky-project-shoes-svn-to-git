@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="buyCart" location="0,0" size="0,0">
+    <action name="buyCartAction" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingCart.jsp" />
+      </result>
+    </action>
+    <action name="delCart" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingCart.jsp" />
+      </result>
+    </action>
+    <action name="updateCart" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingCart.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="shoppingCart.jsp" path="/onstage/shoppingCart.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

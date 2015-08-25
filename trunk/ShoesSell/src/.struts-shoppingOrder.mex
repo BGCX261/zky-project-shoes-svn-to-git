@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="shoppingOrderTable" location="0,0" size="0,0">
+    <action name="shoppingOrder" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingOrder.jsp" />
+      </result>
+    </action>
+    <action name="updateShopCart" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingOrder.jsp" />
+      </result>
+    </action>
+    <action name="delcartOrder" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shoppingOrder.jsp" />
+      </result>
+    </action>
+    <action name="orderTable" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="shoppingOrder.jsp" path="/onstage/shoppingOrder.jsp" location="0,0" size="0,0" />
+  <webResource name="index.jsp" path="/index.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
